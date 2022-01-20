@@ -16,4 +16,8 @@ microservice:
   order-service:
     endpoints:
       endpoint:
-        uri: http://ORDER-SERVICE/order/bookOrder    
+        uri: http://ORDER-SERVICE/order/bookOrder
+  cancel-service:
+    endpoints:
+      endpoint:
+        uri: http://CANCEL-SERVICE/cancel/cancelOrder         
