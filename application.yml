@@ -20,4 +20,4 @@ microservice:
   api-gateway:
     endpoints:
       endpoint:
-        uri: http://localhost:9196
+        uri: http://localhost:8989
