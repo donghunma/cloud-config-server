@@ -13,9 +13,5 @@ microservice:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/doPayment
-  springboot-playground:
-    endpoints:
-      endpoint:
-        uri: http://SPRINGBOOT-PLAYGROUD/order/doOrder
   api-gateway:
         uri: http://GATEWAY-SERVICE
