@@ -18,4 +18,4 @@ microservice:
       endpoint:
         uri: http://SPRINGBOOT-PLAYGROUD/order/doOrder
   api-gateway:
-        uri: http://localhost:8989
+        uri: http://localhost:8989/payment/doPayment
